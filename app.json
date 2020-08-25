@@ -19,10 +19,21 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.phuwin.testappcenter"
     },
     "web": {
       "favicon": "./assets/images/favicon.png"
-    }
+    },
+    "sdkVersion": "38.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "android": {
+      "package": "com.phuwin.testappcenter"
+    },
+    "entryPoint": "node_modules/expo/AppEntry.js"
   }
 }
